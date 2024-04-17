@@ -2,3 +2,5 @@ pydub
 scipy
 matplotlib
 ffmpeg
+openpyxl
+colour

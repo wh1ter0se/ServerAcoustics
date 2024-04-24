@@ -41,6 +41,12 @@ def plot_magspec(mp3_name: str, title: str) -> None:
     plt.savefig(f"figures/magspec_{title}.png")
 
 
+plot_spectrogram(
+    mp3_name="Car_driverside_windowclosed_Yesserver.mp3", title="Windows closed, Server on"
+)
+plot_spectrogram(
+    mp3_name="Car_driverside_windowopen_Yesserver.mp3", title="Windows open, Server on"
+)
 plot_spectrogram(mp3_name="serverMicCalibration.mp3", title="Mic Calibration")
 plot_spectrogram(mp3_name="ServerTransient0(gain).mp3", title="Startup (0 deg)")
 plot_spectrogram(mp3_name="ServerTransient60.mp3", title="Startup (60 deg)")
@@ -50,6 +56,12 @@ plot_spectrogram(mp3_name="ServerTransient240.mp3", title="Startup (240 deg)")
 plot_spectrogram(mp3_name="ServerTransient300.mp3", title="Startup (300 deg)")
 plot_spectrogram(mp3_name="ServerTransientAbove.mp3", title="Startup (above)")
 
+plot_magspec(
+    mp3_name="Car_driverside_windowclosed_Yesserver.mp3", title="Windows closed, Server on"
+)
+plot_magspec(
+    mp3_name="Car_driverside_windowopen_Yesserver.mp3", title="Windows open, Server on"
+)
 plot_magspec(mp3_name="serverMicCalibration.mp3", title="Mic Calibration")
 plot_magspec(mp3_name="ServerTransient0(gain).mp3", title="Startup (0 deg)")
 plot_magspec(mp3_name="ServerTransient60.mp3", title="Startup (60 deg)")
